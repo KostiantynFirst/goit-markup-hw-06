@@ -791,3 +791,10 @@ body {
     background-position: 50% 50%;
     background-color: var(--secondary-text-color);
 }
+
+
+/* Form */
+
+textarea {
+    resize: none;
+}
