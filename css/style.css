@@ -799,6 +799,11 @@ textarea {
     resize: none;
 }
 
+.form-field .input {
+    margin: 0;
+    padding: 0;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -815,6 +820,10 @@ textarea {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 
+}
+
+.form-field.name {
+    margin-top: 12px;
 }
 
 .form-field {
