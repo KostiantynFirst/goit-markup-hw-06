@@ -879,6 +879,15 @@ textarea {
     color: var(--accent-color);
 }
 
+.form-field input[type="checkbox"] {
+    width: 16px;
+    height: 15px;
+}
+
+.form-field-checkbox .form-label {
+    margin-bottom: 0;
+}
+
 .form-field-checkbox .button {
     padding-left: 56px;
     padding-right: 55px;
