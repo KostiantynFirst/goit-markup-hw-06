@@ -933,6 +933,12 @@ textarea {
     letter-spacing: 0.01em;
 }
 
+
+.form-input:focus {
+    border: 1px solid var(--accent-color);
+    outline: var(--accent-color);
+}
+
 .form-field-checkbox .form-label {
     margin-bottom: 0;
     font-size: inherit;
