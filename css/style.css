@@ -934,9 +934,11 @@ textarea {
 }
 
 
-.form-input:focus {
+.form-input:focus,
+.form-input:hover {
     border: 1px solid var(--accent-color);
     outline: var(--accent-color);
+    cursor: pointer;
 }
 
 .form-field-checkbox .form-label {
