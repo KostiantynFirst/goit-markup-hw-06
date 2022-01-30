@@ -384,7 +384,13 @@
               <input type="email" name="mail" id="mail" placeholder="E-mail" class="footer-form-input">
             </div>
         
-            <button type="submit" class="button">Подписаться</button>
+            <div class="footer-button-container">
+              <button type="submit" class="button">Подписаться</button>
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </div>
+
             </div>
         </div>
           
@@ -399,18 +405,34 @@
         
         <div class="form-field name">
           <label for="name" class="form-label">Имя</label>
-          <input type="text" name="user-name" id="name" placeholder=" " class="form-input">
+          <div class="form-input-container">
+            <input type="text" name="user-name" id="name" placeholder=" " class="form-input">
+            <svg class="form-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>     
+          </div>
         </div>
 
         <div class="form-field">
           <label for="tel" class="form-label">Телефон</label>
-          <input type="tel" name="tel" id="tel" placeholder=" " class="form-input">
+          <div class="form-input-container">
+            <input type="tel" name="tel" id="tel" placeholder=" " class="form-input">
+            <svg class="form-icon" width="13" height="13">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>      
+          </div>
+
         </div>
 
         <div class="form-field">
           <label for="mail" class="form-label">Почта</label>
-          <input type="email" name="mail" id="mail" placeholder=" " class="form-input">
-        </div>
+          <div class="form-input-container">
+            <input type="email" name="mail" id="mail" placeholder=" " class="form-input">
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>      
+          </div>
+         </div>
 
         <div class="form-field">
           <label for="comment" class="form-label">Комментарий</label>
@@ -425,7 +447,11 @@
          <button type="submit" class="button">Отправить</button>
        </form>
 
-        <button class="modal-close" type="button" data-modal-close></button>
+        <button class="modal-close" type="button" data-modal-close>
+          <!-- <svg class="modal-close-icon" width="30" height="30">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg> -->
+        </button>
      </div>
    </div>
 
