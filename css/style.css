@@ -872,7 +872,7 @@ textarea {
     resize: none;
 }
 
-.form-field .form-input {
+.form-field input {
     margin: 0;
     padding: 0;
 }
@@ -919,7 +919,7 @@ textarea {
     width: 100%;
     padding-top: 11px;
     padding-bottom: 11px;
-    padding-left: 12px;
+    padding-left: 42px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
