@@ -664,8 +664,16 @@ body {
 }
 
 .footer-form-mail {
+    position: relative;
     padding: 0;
     margin-right: 12px;
+}
+
+.footer-label-mail {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
 }
 
 .footer-form-input {
@@ -684,6 +692,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    /* transition: transform 2500ms var(--timing-function); */
+}
+
+.footer-form-input:focus + .footer-label-mail,
+.footer-form-input:not(:placeholder-shown) + .form-label-mail {
+    transform: translateY(150%);
 }
 
 .footer-button-container {
