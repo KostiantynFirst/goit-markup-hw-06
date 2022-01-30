@@ -692,12 +692,21 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    /* transition: transform 2500ms var(--timing-function); */
+   
 }
 
-.footer-form-input:focus + .footer-label-mail,
-.footer-form-input:not(:placeholder-shown) + .form-label-mail {
-    transform: translateY(150%);
+.footer-label-mail {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: transform 250ms var(--timing-function);
+
+}
+
+.footer-form-input:focus + .footer-label-mail, 
+.footer-form-input:not(:placeholder-shown) + .footer-label-mail {
+    transform: translateY(170%);
 }
 
 .footer-button-container {
@@ -863,7 +872,7 @@ textarea {
     resize: none;
 }
 
-.form-field .input {
+.form-field .form-input {
     margin: 0;
     padding: 0;
 }
@@ -975,6 +984,10 @@ textarea {
     border: 1px solid var(--accent-color);
     outline: var(--accent-color);
     cursor: pointer;
+}
+
+.form-input:focus + .form-icon {
+    fill: var(--accent-color);
 }
 
 .form-field-checkbox .form-label {
