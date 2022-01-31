@@ -434,16 +434,18 @@
             </svg>      
           </div>
          </div>
-
+  
         <div class="form-field">
           <label for="comment" class="form-label">Комментарий</label>
           <textarea name="comment" id="comment" placeholder="Введите текст" class="form-input form-input-placeholder"></textarea>
         </div>
 
         <div class="form-field form-field-checkbox">
-          <input type="checkbox" name="condition" id="condition" class="form-input">
-          <label for="condition" class="form-label">Соглашаюсь с рассылкой и принимаю <a href="" class="link">Условия договора</a></label>
-        </div>
+          <label for="condition" class="form-label"><a href="" class="link">Условия договора</a> <span>Соглашаюсь с рассылкой и принимаю </span>
+            <input type="checkbox" name="condition" id="condition" class="form-checkbox">
+            <span class="icon"></span>
+          </label>
+        </div> 
         
          <button type="submit" class="button">Отправить</button>
        </form>
