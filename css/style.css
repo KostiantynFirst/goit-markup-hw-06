@@ -936,6 +936,7 @@ textarea {
 
 .form-input-container .form-input {
     width: 100%;
+    height: 40px;
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 42px;
